@@ -2,7 +2,7 @@ package DataStructures;
 
 import java.util.Stack;
 
-public class QueueWithTwoStacks {
+public class Queue_With_Two_Stacks {
 
     public static class MyQueue<T> {
         private Stack<T> stackNewestOnTop = new Stack<>();
