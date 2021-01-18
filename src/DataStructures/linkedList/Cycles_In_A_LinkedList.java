@@ -1,4 +1,4 @@
-package DataStructures;
+package DataStructures.linkedList;
 
 public class Cycles_In_A_LinkedList {
 

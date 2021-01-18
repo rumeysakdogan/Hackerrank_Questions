@@ -1,4 +1,18 @@
-package DataStructures.LinkedList;
+package DataStructures.linkedList;
+
+/*
+    We need a class node that takes in, has a next value, and a data,
+    and then just to make our lives easier we'll add in a constructor and set that value.
+     */
+class Node {
+    Node next;
+    int data;
+
+    public Node(int data) {
+        this.data = data;
+    }
+
+}
 
 public class LinkedList {
 
@@ -39,3 +53,4 @@ public class LinkedList {
         }
     }
 }
+
